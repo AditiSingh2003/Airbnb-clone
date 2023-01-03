@@ -1,4 +1,3 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '../components/Header';
 import React from 'react';
@@ -6,7 +5,7 @@ import Banner from '../components/Banner';
 import SmallCard from '../components/SmallCard';
 import MediumCard from '../components/MediumCard';
 import LargeCard from '../components/LargeCard';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer' ;
 
 export const getStaticProps = async () =>{
   const exploreData = await fetch('https://www.jsonkeeper.com/b/4G1G');
@@ -21,7 +20,6 @@ export const getStaticProps = async () =>{
         cardsData: cards,
       } 
 }
-
 }
 
 const Home = ({exploreData , cardsData}) => {
