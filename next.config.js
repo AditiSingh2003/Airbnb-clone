@@ -6,7 +6,4 @@ module.exports = {
     domains: ["links.papareact.com"],
   },
 
-  env:{
-    mapbox_key:"AIzaSyCpqwIRwv4kvyc-eKV7gjWQVhhxPbk8MCs"
-  }
 }

@@ -1,4 +1,4 @@
-// AIzaSyCpqwIRwv4kvyc-eKV7gjWQVhhxPbk8MCs
+
 import React from 'react'
 
 function Map() {
