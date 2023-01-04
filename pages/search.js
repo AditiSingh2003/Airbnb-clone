@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import InfoCard from '../components/InfoCard'
-
+// import Map from '../components/Map'
 
 export async function getServerSideProps() {
   const searchResults = await fetch(`https://www.jsonkeeper.com/b/5NPS`)
@@ -56,6 +56,11 @@ const search = ({searchResults}) => {
                 </div>
             </section>
      </main>
+
+     {/* <section> 
+      {/*  className='hidden xl:inline-flex' */}
+      {/* <Map/>
+     </section> */} 
      <Footer/>
     </div>
   )
