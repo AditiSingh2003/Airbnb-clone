@@ -17,11 +17,11 @@ const Footer = () => {
             <p>This is not a real site</p>
             <p>It's a pretty awesome clone</p>
             <p>Referrals accepted</p>
-            <p>Shahid</p>
+            <p>Aditi</p>
         </div>
         <div className='space-y-4 text-s text-gray-800'>
             <h5 className='font-bold'>HOST</h5>
-            <p>Shahid</p>
+            <p>Aditi</p>
             <p>Presents</p>
             <p>Zero to Full Stack Hero</p>
             <p>Hundreds of Students</p>
